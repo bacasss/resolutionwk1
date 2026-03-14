@@ -24,7 +24,7 @@ def save_task(tasks):
 
 def main():
     parser = argparse.ArgumentParser()
-    parser.add_argument("-v", "--version", action = "version", version = "Version: 0.1", help = "Shows the version of the code.")
+    parser.add_argument("-v", "--version", action = "version", version = "Version: 0.0.2", help = "Shows the version of the code.")
     parser.add_argument("task", type=str, nargs="?", help="Task to add")
     parser.add_argument("-p", "--priority", type = int, choices = [1, 2, 3], help = "Set task priority, higher is more priority. To be added after python main.py (task name).")
     parser.add_argument("-l", "--list", help="List all tasks", action="store_true")
