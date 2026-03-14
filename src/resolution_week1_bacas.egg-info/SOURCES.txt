@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pyproject.toml
+src/resolution_week1_bacas/__init__.py
+src/resolution_week1_bacas/main.py
+src/resolution_week1_bacas.egg-info/PKG-INFO
+src/resolution_week1_bacas.egg-info/SOURCES.txt
+src/resolution_week1_bacas.egg-info/dependency_links.txt
+src/resolution_week1_bacas.egg-info/top_level.txt
